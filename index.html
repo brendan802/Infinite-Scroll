@@ -1,18 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Template</title>
-    <link rel="icon" type="image/png" href="https://www.google.com/s2/u/0/favicons?domain=brendan.design">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
-   <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    <h1>Hello, World</h1>
-    <i class="fas fa-closed-captioning"></i>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Infinite Scroll</title>
+    <link
+      rel="icon"
+      type="image/png"
+      href="https://www.google.com/s2/u/0/favicons?domain=brendan.design"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Title -->
+    <h1>Unsplash API -- Infinite Scroll</h1>
+    <!-- loader -->
+    <div class="Loader" id="loader" hidden>
+      <img src="Loader.svg" alt="loader image" />
+    </div>
+    <!-- Image Container -->
+    <div class="ImageContainer" id="image-container">
+      <img
+        src="https://images.unsplash.com/photo-1615729947596-a598e5de0ab3?ixid
+        =MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80"
+        alt=""
+      />
+      <p id="paragraph"></p>
+    </div>
+
     <!-- Script  -->
     <script src="script.js"></script>
-</body>
+  </body>
 </html>
